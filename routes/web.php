@@ -35,3 +35,7 @@ Route::put('/comics/{comic}', [GuestFumettiController::class, 'update'])->name('
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
